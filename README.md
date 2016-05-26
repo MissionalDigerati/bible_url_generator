@@ -6,7 +6,7 @@ This script is designed to demonstrate an approach for finding URL's for Bible s
 
 This repository is following the branching technique described in [this blog post](http://nvie.com/posts/a-successful-git-branching-model/), and the semantic version set out on the [Semantic Versioning Website](http://semver.org/).
 
-Questions or problems? Please post them on the [issue tracker](). You can contribute changes by forking the project and submitting a pull request.
+Questions or problems? Please post them on the [issue tracker](https://github.com/MissionalDigerati/bible_url_generator/issues). You can contribute changes by forking the project and submitting a pull request.
 
 #License
 
