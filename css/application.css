@@ -1,6 +1,9 @@
 body {
     padding-top: 50px;
 }
+.format {
+    font-style: italic;
+}
 .current-url {
     margin-top: 15px;
 }
