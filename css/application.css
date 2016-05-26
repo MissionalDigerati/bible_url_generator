@@ -1,3 +1,9 @@
 body {
     padding-top: 50px;
 }
+.current-url {
+    margin-top: 15px;
+}
+.current-url .well {
+    text-align: center;
+}
