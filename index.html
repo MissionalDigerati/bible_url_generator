@@ -27,13 +27,30 @@
     </nav>
     <div class="container">
       <h1>Generate a New Bible URL</h1>
-
+      <p>To request a URL, enter the URL below.  Use the following format:</p>
+      <p class="format">{bible-version} {book} {chapter}.{first-verse}-{last-verse}</p>
+      <form id="submit-passage-form" action="#" method="post">
+        <div id="message-holder"></div>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for..." id="passage-input">
+          <span class="input-group-btn">
+            <button class="btn btn-primary" type="submit">Go!</button>
+          </span>
+        </div>
+      </form>
+      <div class="current-url">
+        <p>Your URL:</p>
+        <div id="url-value" class="well">
+          ...
+        </div>
+      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="js/url-generator.js"></script>
+    <script src="js/bible-url-generator.js"></script>
+    <script src="js/application.js"></script>
   </body>
 </html>
