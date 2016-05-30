@@ -19,7 +19,7 @@ function BibleUrlGenerator() {
    * @param  {[RegEx}
    * @access public
    */
-  var requestRegEx = /(\w*)\s+(\w*)\s+(\d*)\.+(\d*)\-*(\d*)/i;
+  var requestRegEx = /(\w{3,4})\s*([\w\d\s]*)\s+(\d*)\.+(\d*)\-*(\d*)/i;
 
   /**
    * Generate the URL based on the given request.  We can add support for multiple formats, but currently supports
