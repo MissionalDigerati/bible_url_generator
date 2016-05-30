@@ -1,0 +1,668 @@
+{
+  "version": "niv",
+  "code": "niv",
+  "versionString": "New International Version",
+  "baseUrl": "https://www.biblegateway.com/passage/?search={book-code}+{chapter}.{first-verse}-{last-verse}&version=NIV",
+  "chapter": {
+    "padded": false
+  },
+  "verse": {
+    "padded": false
+  },
+  "book": {
+    "lookup": [
+      {
+        "title": "Genesis",
+        "code": "genesis",
+        "possibilities": [
+          "genesis",
+          "gen",
+          "gen."
+        ]
+      },
+      {
+        "title": "Exodus",
+        "code": "exodus",
+        "possibilities": [
+          "exodus",
+          "exo",
+          "exo."
+        ]
+      },
+      {
+        "title": "Leviticus",
+        "code": "leviticus",
+        "possibilities": [
+          "leviticus",
+          "lev",
+          "lev."
+        ]
+      },
+      {
+        "title": "Numbers",
+        "code": "numbers",
+        "possibilities": [
+          "numbers",
+          "num",
+          "num."
+        ]
+      },
+      {
+        "title": "Deuteronomy",
+        "code": "deuteronomy",
+        "possibilities": [
+          "deuteronomy",
+          "deu",
+          "deu."
+        ]
+      },
+      {
+        "title": "Joshua",
+        "code": "joshua",
+        "possibilities": [
+          "joshua",
+          "jos",
+          "jos."
+        ]
+      },
+      {
+        "title": "Judges",
+        "code": "judges",
+        "possibilities": [
+          "judges",
+          "judge",
+          "jdg",
+          "jdg."
+        ]
+      },
+      {
+        "title": "Ruth",
+        "code": "ruth",
+        "possibilities": [
+          "ruth",
+          "rut",
+          "rut."
+        ]
+      },
+      {
+        "title": "1 Samuel",
+        "code": "1+samuel",
+        "possibilities": [
+          "1 samuel",
+          "1samuel",
+          "1-samuel",
+          "1sa",
+          "1sa."
+        ]
+      },
+      {
+        "title": "2 Samuel",
+        "code": "2+samuel",
+        "possibilities": [
+          "2 samuel",
+          "2samuel",
+          "2-samuel",
+          "2sa",
+          "2sa."
+        ]
+      },
+      {
+        "title": "1 Kings",
+        "code": "1+kings",
+        "possibilities": [
+          "1 kings",
+          "1kings",
+          "1-kings",
+          "1ki",
+          "1ki."
+        ]
+      },
+      {
+        "title": "2 Kings",
+        "code": "2+kings",
+        "possibilities": [
+          "2 kings",
+          "2kings",
+          "2-kings",
+          "2ki",
+          "2ki."
+        ]
+      },
+      {
+        "title": "1 Chronicles",
+        "code": "1+chronicles",
+        "possibilities": [
+          "1 chronicles",
+          "1chronicles",
+          "1-chronicles",
+          "1ch",
+          "1ch."
+        ]
+      },
+      {
+        "title": "2 Chronicles",
+        "code": "2+chronicles",
+        "possibilities": [
+          "2 chronicles",
+          "2chronicles",
+          "2-chronicles",
+          "2ch",
+          "2ch."
+        ]
+      },
+      {
+        "title": "Ezra",
+        "code": "ezra",
+        "possibilities": [
+          "ezra",
+          "ezr",
+          "ezr."
+        ]
+      },
+      {
+        "title": "Nehemiah",
+        "code": "nehemiah",
+        "possibilities": [
+          "nehemiah",
+          "neh",
+          "neh."
+        ]
+      },
+      {
+        "title": "Esther",
+        "code": "esther",
+        "possibilities": [
+          "esther",
+          "est",
+          "est."
+        ]
+      },
+      {
+        "title": "Job",
+        "code": "job",
+        "possibilities": [
+          "job",
+          "job",
+          "job."
+        ]
+      },
+      {
+        "title": "Psalms",
+        "code": "psalms",
+        "possibilities": [
+          "psalms",
+          "psalm",
+          "book of psalms",
+          "psa",
+          "psa."
+        ]
+      },
+      {
+        "title": "Proverbs",
+        "code": "proverbs",
+        "possibilities": [
+          "proverbs",
+          "proverb",
+          "pro",
+          "pro."
+        ]
+      },
+      {
+        "title": "The Song of Solomon",
+        "code": "song+of+songs",
+        "possibilities": [
+          "the song of solomon",
+          "song of solomon",
+          "song of songs",
+          "song",
+          "solomon",
+          "sng."
+        ]
+      },
+      {
+        "title": "Isaiah",
+        "code": "isaiah",
+        "possibilities": [
+          "isaiah",
+          "isa",
+          "isa."
+        ]
+      },
+      {
+        "title": "Jeremiah",
+        "code": "jeremiah",
+        "possibilities": [
+          "jeremiah",
+          "jer",
+          "jer."
+        ]
+      },
+      {
+        "title": "Lamentations",
+        "code": "lamentations",
+        "possibilities": [
+          "lamentations",
+          "lamentation",
+          "lam",
+          "lam."
+        ]
+      },
+      {
+        "title": "Ezekiel",
+        "code": "ezekiel",
+        "possibilities": [
+          "ezekiel",
+          "ezk",
+          "ezk."
+        ]
+      },
+      {
+        "title": "Daniel",
+        "code": "daniel",
+        "possibilities": [
+          "daniel",
+          "dan",
+          "dan."
+        ]
+      },
+      {
+        "title": "Hosea",
+        "code": "hosea",
+        "possibilities": [
+          "hosea",
+          "hos",
+          "hos."
+        ]
+      },
+      {
+        "title": "Joel",
+        "code": "joel",
+        "possibilities": [
+          "joel",
+          "jol",
+          "jol."
+        ]
+      },
+      {
+        "title": "Amos",
+        "code": "amos",
+        "possibilities": [
+          "amos",
+          "amo",
+          "amo."
+        ]
+      },
+      {
+        "title": "Obadiah",
+        "code": "obadiah",
+        "possibilities": [
+          "obadiah",
+          "oba",
+          "oba."
+        ]
+      },
+      {
+        "title": "Jonah",
+        "code": "jonah",
+        "possibilities": [
+          "jonah",
+          "jon",
+          "jon."
+        ]
+      },
+      {
+        "title": "Micah",
+        "code": "micah",
+        "possibilities": [
+          "micah",
+          "mic",
+          "mic."
+        ]
+      },
+      {
+        "title": "Nahum",
+        "code": "nahum",
+        "possibilities": [
+          "nahum",
+          "nam",
+          "nam."
+        ]
+      },
+      {
+        "title": "Habakkuk",
+        "code": "habakkuk",
+        "possibilities": [
+          "habakkuk",
+          "hab",
+          "hab."
+        ]
+      },
+      {
+        "title": "Zephaniah",
+        "code": "zephaniah",
+        "possibilities": [
+          "zephaniah",
+          "zep",
+          "zep."
+        ]
+      },
+      {
+        "title": "Haggai",
+        "code": "haggai",
+        "possibilities": [
+          "haggai",
+          "hag",
+          "hag."
+        ]
+      },
+      {
+        "title": "Zechariah",
+        "code": "zechariah",
+        "possibilities": [
+          "zechariah",
+          "zec",
+          "zec."
+        ]
+      },
+      {
+        "title": "Malachi",
+        "code": "malachi",
+        "possibilities": [
+          "malachi",
+          "mal",
+          "mal."
+        ]
+      },
+      {
+        "title": "Matthew",
+        "code": "matthew",
+        "possibilities": [
+          "matthew",
+          "matt",
+          "mat",
+          "mat."
+        ]
+      },
+      {
+        "title": "Mark",
+        "code": "mark",
+        "possibilities": [
+          "mark",
+          "mrk",
+          "mrk."
+        ]
+      },
+      {
+        "title": "Luke",
+        "code": "luke",
+        "possibilities": [
+          "luke",
+          "luk",
+          "luk."
+        ]
+      },
+      {
+        "title": "John",
+        "code": "john",
+        "possibilities": [
+          "john",
+          "jhn",
+          "jhn."
+        ]
+      },
+      {
+        "title": "Acts",
+        "code": "acts",
+        "possibilities": [
+          "acts",
+          "act",
+          "act."
+        ]
+      },
+      {
+        "title": "Romans",
+        "code": "romans",
+        "possibilities": [
+          "romans",
+          "rom",
+          "rom."
+        ]
+      },
+      {
+        "title": "1 Corinthians",
+        "code": "1+corinthians",
+        "possibilities": [
+          "1 corinthians",
+          "1corinthians",
+          "1-corinthians",
+          "1 corinthian",
+          "1corinthian",
+          "1-corinthian",
+          "1co",
+          "1co."
+        ]
+      },
+      {
+        "title": "2 Corinthians",
+        "code": "2+corinthians",
+        "possibilities": [
+          "2 corinthians",
+          "2corinthians",
+          "2-corinthians",
+          "2 corinthian",
+          "2corinthian",
+          "2-corinthian",
+          "2co",
+          "2co."
+        ]
+      },
+      {
+        "title": "Galatians",
+        "code": "galatians",
+        "possibilities": [
+          "galatians",
+          "galatian",
+          "gal",
+          "gal."
+        ]
+      },
+      {
+        "title": "Ephesians",
+        "code": "ephesians",
+        "possibilities": [
+          "ephesians",
+          "ephesian",
+          "eph",
+          "eph."
+        ]
+      },
+      {
+        "title": "Philippians",
+        "code": "philippians",
+        "possibilities": [
+          "philippians",
+          "phillipians",
+          "phillippians",
+          "philippian",
+          "phillipian",
+          "phillippan",
+          "php",
+          "php."
+        ]
+      },
+      {
+        "title": "Colossians",
+        "code": "colossians",
+        "possibilities": [
+          "colossians",
+          "colossian",
+          "col",
+          "col."
+        ]
+      },
+      {
+        "title": "1 Thessalonians",
+        "code": "1+thessalonians",
+        "possibilities": [
+          "1 thessalonians",
+          "1thessalonians",
+          "1-thessalonians",
+          "1 thessalonian",
+          "1thessalonian",
+          "1-thessalonian",
+          "1th",
+          "1th."
+        ]
+      },
+      {
+        "title": "2 Thessalonians",
+        "code": "2+thessalonian",
+        "possibilities": [
+          "2 thessalonians",
+          "2thessalonians",
+          "2-thessalonians",
+          "2 thessalonian",
+          "2thessalonian",
+          "2-thessalonian",
+          "2th",
+          "2th."
+        ]
+      },
+      {
+        "title": "1 Timothy",
+        "code": "1+timothy",
+        "possibilities": [
+          "1 timothy",
+          "1timothy",
+          "1-timothy",
+          "1ti",
+          "1ti."
+        ]
+      },
+      {
+        "title": "2 timothy",
+        "code": "2+timothy",
+        "possibilities": [
+          "2 timothy",
+          "2timothy",
+          "2-timothy",
+          "2ti",
+          "2ti."
+        ]
+      },
+      {
+        "title": "Titus",
+        "code": "titus",
+        "possibilities": [
+          "titus",
+          "tit",
+          "tit."
+        ]
+      },
+      {
+        "title": "Philemon",
+        "code": "philemon",
+        "possibilities": [
+          "philemon",
+          "phm",
+          "phm."
+        ]
+      },
+      {
+        "title": "Hebrews",
+        "code": "hebrews",
+        "possibilities": [
+          "hebrews",
+          "heb",
+          "heb."
+        ]
+      },
+      {
+        "title": "James",
+        "code": "james",
+        "possibilities": [
+          "james",
+          "jame",
+          "jas",
+          "jas."
+        ]
+      },
+      {
+        "title": "1 Peter",
+        "code": "1+peter",
+        "possibilities": [
+          "1 peter",
+          "1peter",
+          "1-peter",
+          "1pe",
+          "1pe."
+        ]
+      },
+      {
+        "title": "2 Peter",
+        "code": "2+peter",
+        "possibilities": [
+          "2 peter",
+          "2peter",
+          "2-peter",
+          "2pe",
+          "2pe."
+        ]
+      },
+      {
+        "title": "1 John",
+        "code": "1+john",
+        "possibilities": [
+          "1 john",
+          "1john",
+          "1-john",
+          "1jn",
+          "1jn."
+        ]
+      },
+      {
+        "title": "2 John",
+        "code": "2+john",
+        "possibilities": [
+          "2 john",
+          "2john",
+          "2-john",
+          "2jn",
+          "2jn."
+        ]
+      },
+      {
+        "title": "3 John",
+        "code": "3+john",
+        "possibilities": [
+          "3 john",
+          "3john",
+          "3-john",
+          "3jn",
+          "3jn."
+        ]
+      },
+      {
+        "title": "Jude",
+        "code": "jude",
+        "possibilities": [
+          "jude",
+          "jud",
+          "jud."
+        ]
+      },
+      {
+        "title": "Revelation",
+        "code": "revelation",
+        "possibilities": [
+          "revelation",
+          "revelations",
+          "book of revelation",
+          "book of revelations",
+          "rev",
+          "rev."
+        ]
+      }
+    ]
+  }
+}
