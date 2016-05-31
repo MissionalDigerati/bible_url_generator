@@ -208,6 +208,16 @@
         ]
       },
       {
+        "title": "Ecclesiastes",
+        "code": "ecclesiastes",
+        "possibilities": [
+          "ecclesiastes",
+          "ecclesiaste",
+          "ecc",
+          "ecc."
+        ]
+      },
+      {
         "title": "The Song of Solomon",
         "code": "song+of+songs",
         "possibilities": [
